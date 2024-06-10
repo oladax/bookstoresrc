@@ -1,0 +1,179 @@
+.pro {
+    display: none;
+    flex-direction: column;
+    transition: display 4s ease-in-out;
+  }
+
+  
+  
+  .pro-intro h2 {
+    text-align: center;
+    font-size: 1.2em;
+    font-family: 'Playfair Display', sans-serif;
+    margin-bottom: 30px;
+    padding: 7px;
+    line-height: 1.2;
+    color: black;
+  }
+
+  .pro-intro h2.darkmode{
+    color: white;
+  }
+  
+  .pro-intro p {
+    text-align: center;
+    font-size: 19px;
+    padding-top: 1rem;
+    padding-bottom: 10px;
+    color: royalblue;
+    font-weight: 500;
+    text-decoration: underline; 
+    text-underline-offset: 10px; 
+    text-decoration-thickness: 1px;
+    text-decoration-color: purple;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+
+  .project{
+    max-width: 88rem;
+    width: 100%;
+    margin: auto;
+    padding: 20px 20px;
+  }
+
+  .procontainer{
+    display: grid;
+    justify-content: space-evenly;
+    align-items: stretch;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    width: 100%;
+  }
+
+ /* project.css */
+
+/* Styles for the .pros container */
+.pros {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 450px;
+  margin-bottom: 2.2rem;
+  border-radius: 20px;
+  transition:  opacity 0.2s ease-in-out;
+   background-color: white;/* Adjust the max-width as needed to fit your layout */
+  /* Add more styles as needed */
+}
+
+.pros.darkmode{
+  background-color: black;
+}
+
+.pros:hover{
+  opacity: 0.8;/* Apply a slight zoom effect on hover (you can adjust the scale value to your preference) */
+}
+
+.hires{
+  padding-right: 11px;
+}
+
+.hires a{
+  font-size: 15px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: black;
+}
+
+.hires a.darkmode{
+  color: white;
+}
+
+.pros .divs{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+/* Styles for the image inside .pros */
+.pros img {
+  width: 80%;
+  height: 40vh;
+  object-fit: contain;
+  margin-bottom: 10px;
+  background: linear-gradient(to right, royalblue 50%, purple 50%);
+  border-radius: 12px;
+  animation: gradientSwipe 6s infinite linear;
+}
+@keyframes gradientSwipe {
+  0% {
+    background: linear-gradient(to right, royalblue 50%, purple 50%);
+  }
+  100% {
+    background: linear-gradient(to right, purple 50%, royalblue 50%);
+  }
+}
+/* Styles for the headings inside .pros */
+.pros h3 {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 16.5px;
+  text-align: center;
+}
+
+.pros h4 {
+  margin-bottom: 10px;
+  margin-top: 20px;
+  font-size: 16px;
+  padding-left: 10px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* Styles for the .techs and .hire elements inside .pros */
+.pros .techs{
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  margin-bottom: 15px;
+  align-items: center;}
+
+/* Styles for the <ul> list inside .pros */
+.techcollection{
+  display: flex;
+  align-items: center;
+}
+
+/* Styles for the <li> items inside .pros ul */
+.techcollection li {
+  list-style: none;
+  font-size: 29px;
+  color: royalblue;
+  margin-left: 10px;
+}
+
+.abtbutton{
+  display: flex;
+  justify-content: center;
+}
+
+.abtbutton button{
+  background: purple;
+  border: none;
+  border-radius: 10px;
+  color: #fff;
+  height: 41px;
+  font-size: 15px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-align: center;
+  width: 132px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.abtbutton button:hover{
+  cursor: pointer;
+}
+
+.abtbutton button a{
+  text-decoration: none;
+  color: white;
+}

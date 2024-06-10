@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css?family=tangerine');
+@import url('https://fonts.googleapis.com/css?family=San Francisco');
+
+
+.aboutcon{
+  background-color: aliceblue;
+}
+
+.abouts{
+  max-width: 88rem;
+  width: 100%;
+  margin: auto;  
+  padding-bottom: 20px;
+  margin-top: -5rem;
+  transition: display 4s ease-in-out;
+  display: block;
+}
+
+
+
+.aboutcon.darkmode{
+  background-color: #181846b8;}
+
+.oladaxpic h3{
+  font-family: 'Playfair Display';
+  font-size: 1.2em;
+  padding-bottom: 20px;
+  text-align: center;
+  opacity: 0.9;
+}
+
+.about-intro{
+  cursor: pointer;
+  margin-top: 6rem;
+}
+
+.about-intro h2{
+  text-align: center;
+  font-size: 1.7em;
+  font-family: 'Playfair Display', sans-serif;
+  padding: 7px;
+  line-height: 1.2;
+  color: black;
+  opacity: 0.9;
+}
+
+.about-intro h2.darkmode{
+  color: white;
+}
+.about-intro p{
+  text-align: center;
+  font-size: 19px;
+  padding-top: 1rem;
+  padding-bottom: 10px;
+  color: royalblue;
+  text-decoration: underline; 
+  text-underline-offset: 10px; 
+  text-decoration-thickness: 1px;
+  text-decoration-color: purple;
+  font-weight: 500;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.aboutname h2{
+  text-align: center;
+  font-size: 33px;
+  font-family: 'tangerine', 'san serif';
+  font-weight: bolder;
+  padding: 7px;
+  line-height: 1.2;
+  color: black;
+}
+
+.about{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-bottom: 2rem;
+  margin-top: 2rem;
+}
+
+.oladaxpic {
+  position: relative;
+  top: -119px;
+}
+
+.olami{
+      transform: skewX(170deg);
+        background: linear-gradient(to right, royalblue 50%, purple 50%);
+        border-radius: 15px;
+}
+
+
+.olami img {
+    width: 260px;
+      height: 310px;
+      object-fit: cover;
+      background-color: #f0f0f0;
+      border-bottom-left-radius: 100px;
+      border-bottom-right-radius: 100px;
+      object-position: center;
+      border-top-left-radius: 100px;
+      border-top-right-radius: 100px;
+}
+
+.olami img.darkmode{
+  background-color: rgba(0, 0, 0, 0.86);
+}
+
+.oladaxpic .olami p{
+  font-size: 19px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: white;
+}
+
+
+  .aboutsentence{
+    width: 100%;
+    max-width: 550px;
+  }
+
+  .aboutsentence p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 0.9rem;
+    opacity: 0.9;
+    padding: 10px;
+
+  }
+
+  .highlight{
+    color: royalblue;
+    font-family: 22px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+
+  .highlight.darkmode{
+    color: gold;
+
+  }
+
+  .probutton{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .probutton button{
+    background: purple;
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+    height: 41px;
+    font-size: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    width: 132px;
+    cursor: pointer;
+  }
+
+  .probutton button:hover{
+    cursor: pointer;
+  }
+  .bottom{
+    position: static;
+    background-color: #909ef04e;
+    width: 246px;
+    opacity: 0.5;
+    border-style: groove;
+    height: 150px;
+    border-bottom-right-radius: 158px;
+    border-top-left-radius: 130px;
+    border: none;
+    transform: translateY(-500px);
+    margin-left: -160px;
+    top: -233;
+    inset: 0;
+  }
+
+ 
+  
+  /*/ project css/*/
+

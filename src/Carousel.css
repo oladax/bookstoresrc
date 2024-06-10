@@ -1,0 +1,219 @@
+/* Carousel.css */
+.carousel-container {
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: white;
+  padding-bottom: 1rem;
+}
+
+.carousel-container.darkmode{
+  background-color: black;
+}
+
+.testimonial-intro{
+  text-align: center;
+  padding-top: 3.4rem;
+}
+
+.testimonial-intro p{
+  text-align: center;
+  font-size: 19px;
+  font-weight: 500;
+  text-decoration: underline;
+  text-underline-offset: 10px;
+  text-decoration-thickness: 1px;
+  text-decoration-color: purple;
+  padding-bottom: 10px;
+  color: #4169E1;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+}
+
+.testimonial-intro h2{
+  text-align: center;
+  font-size: 1.7em;
+  font-family: 'Playfair Display';
+  padding: 7px;
+  margin-top: 5px;
+  line-height: 1.2;
+  margin-bottom: 4rem;
+  opacity: 0.9;
+  color: black;
+}
+
+.testimonial-intro h2.darkmode{
+  color: white;
+}
+.swiper-container {
+  width: 100%;
+  max-width: 950px;
+  border-radius: 25px;
+  margin-bottom: 20px;
+  transition: transform 0.5s ease-in-out;
+}
+
+.swiper-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  overflow: hidden;
+ 
+}
+
+.slide-content {
+  padding-left: 10px;
+  margin-left: 15px;
+  margin-right: 15px;
+  padding-right: 10px;
+  margin-bottom: 20px;
+  background-color: #f0f0f0;
+  border-radius: 10px;
+  padding-top: 3.5rem;
+  padding-bottom: 3.5rem;
+  transition: transform 0.2s ease-in-out;
+}
+
+.slide-content.darkmode{
+  background-color: #161515;
+
+}
+
+.slide-content img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Custom Swiper Animation */
+.swiper-slide {
+  transition: transform 0.5s ease;
+}
+
+.img-con{
+  background: linear-gradient(to right, royalblue 50%, purple 50%);
+  display: flex;
+  align-items: center;
+  margin-top: -40px;
+  border-radius: 10px;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.img-con .imgd{
+  height: 114px;
+  width: 110px;
+  border-radius: 50%;
+  object-position: center;
+  object-fit: fill;
+  margin-top: 30px;
+}
+
+
+.img-con img{
+  height: 114px;
+  width: 110px;
+  border-radius: 50%;
+  object-position: center;
+  object-fit: cover;
+  object-position: center;
+  margin-top: 30px;
+ 
+}
+
+
+
+.img-con h3{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 18px;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  text-align: center;
+  color: white;
+}
+
+.slide-content h4{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  margin-top: 7px;
+  margin-bottom: 5px;
+}
+
+ .slide-content .stars{
+  color: gold;
+  font-size: 14px;
+  margin-top: 20px;
+  font-style: oblique;}
+
+  .slide-content p{
+    margin-top: 20px;
+    font-size: 0.9em;
+    font-style: oblique;
+    opacity: 0.9;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;  }
+
+  .right{
+    color: purple;
+  }
+
+  .left{
+    color: royalblue;
+  }
+
+  .slide-content li{
+    margin-top: 20px;
+    font-size: 27px;
+    font-style: oblique;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-align: center;
+  margin-bottom: -35px;
+  }
+
+  .slide-content li a{
+    color: royalblue;
+
+  }
+
+
+
+  .swiper-pagination {
+    position: relative;
+    margin: 15px 0;
+  }
+  
+  
+    .swiper-pagination-bullet {
+      width: 13px;
+      height: 13px;
+      background-color: purple; /* Change color to red */
+      border-radius: 50%;
+      opacity: 0.7;
+      margin: 0 18px; /* Increase the margin for more space */
+
+      transition: background-color 0.3s ease, opacity 0.3s ease;
+    }
+  
+  .swiper-pagination-bullet-active {
+    background-color: royalblue;
+    opacity: 1;
+  }
+
+  .swiper-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet, .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet{
+    margin: 0 var(--swiper-pagination-bullet-horizontal-gap, 6px);
+  }
+
+
+/* ... (other styles) */
+
+.swiper-button-prev:after, .swiper-button-next:after {
+  font-family: swiper-icons;
+  font-size: 26px;
+  text-transform: none !important;
+  letter-spacing: 0;
+  font-variant: initial;
+  line-height: 6;
+  color: purple;
+}
+
+
+
